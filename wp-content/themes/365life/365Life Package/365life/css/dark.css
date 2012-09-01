@@ -1,0 +1,437 @@
+/* styling for dark skin */
+	
+	body{
+		background: #000;
+	}
+	body,p,pre,div,span{
+		color: #e5e5e5;
+	}
+	#body-2{
+		background: url('../img/opac.png');
+	}
+	#container{
+		background-color:  #252525;
+	}
+	.front-manager{
+		background: #000;
+	}
+	.menu-wrapper ul li a:link , .menu-wrapper ul li a:visited {
+		color: #fff;	
+	}
+	.menu-wrapper ul li ul{
+		background: url('../img/bg-menu2.png');	
+			-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 2px 1px;
+			-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 2px 1px;
+			box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 2px 1px;
+	}
+	.menu-wrapper ul li ul li a:link, .menu-wrapper ul li ul li a:visited {
+		color: #eee !important;
+	}
+	.menu-wrapper li.current-menu-item ul li a,.menu-wrapper li.current-menu-parent ul li a{
+		color: #eee !important;
+	}
+	#page .page-content-wrapper, #page .page-contact-wrapper, #page .page-full-content-wrapper, #page .blog-excerpt-wrapper{
+		background: #000;	
+	}
+	#sidebar{
+		background: url('../skin/sidebar-bg-black.png') ;
+	}
+	#page .page-search-not-found{
+		background: url('../skin/sidebar-bg-black.png') ;
+	}
+	#page .blog-excerpt-wrapper{		
+		border-bottom: 1px #333 solid;
+	}
+	
+	.pagination a:hover{
+		color: #eee;
+		background: #333;
+	}
+	.pagination .current{		
+		color: #000;
+	}	
+	.pagination span, .pagination a {
+		color: #888;
+		background: #111;
+	}
+	
+	#header-whole{
+		border-top: 1px #222 solid;
+	}	
+			
+	#top-filter-1{
+		border-bottom: 1px #333 solid;
+		background: url('../img/filter-1-top.png') repeat-x;
+	}
+	#prevs,	#nexts{
+		background: url('../img/filter-1-top.png');
+	}
+	.last-port-title{
+		background: #000 url('../img/title-shadow.png') no-repeat top right;
+		border-top: 1px #000 solid;
+		border-bottom: 1px #333 solid;
+	}
+	.last-blog-item-bg{
+		background: #000;	
+	}
+	
+	#searchinput{
+		background: #000;
+	}
+	#searchsubmit{
+		background: url('../img/search-big.png') no-repeat;
+	}
+	
+	
+	
+	
+.divider{
+	border-bottom: 1px #2a2a2a solid;
+}	
+.quote, .quote-left, .quote-right{
+	color: #fff;
+}
+.toggle-title{
+	background: #222;
+	color: #eee;	
+}
+.toggle-desc{
+	background: #222;
+}
+
+#comments div.comment-meta div.comment-date {
+	color:#a6a6a6;
+}
+/*label word*/
+#comments #respond p.comment-form-email label, #comments #respond p.comment-form-author label, #comments #respond p.comment-form-url label, #comments #respond p.comment-form-comment label, #comments #respond p.login-as  {
+	color: #888;
+}
+
+#comments #respond p.comment-form-email input, #comments #respond p.comment-form-author input, #comments #respond p.comment-form-url input {
+	color:#888;
+	border: 1px solid #222;
+	background: #1C1C1C;
+}	
+ol.forms input, ol.forms textarea, #comments #respond p.comment-form-email input, #comments #respond p.comment-form-author input, #comments #respond p.comment-form-url input, #comments #respond p.comment-form-comment textarea {
+	border: 1px solid #222;
+	background: #1C1C1C;
+	color: #888;
+}
+#comments div.comment-body p {
+	color: #777;
+}
+#comments span.comment-date-date, #comments span.comment-date-time{	
+	color: #999;
+}	
+
+#comments div.comment-body {
+	border-bottom: 1px #292929 solid;
+}
+
+
+/*sidebar contact*/
+#sidebar #comments #respond p.comment-form-email input, #sidebar #comments #respond p.comment-form-author input, #sidebar #comments #respond p.comment-form-url input {
+	color:#888;
+	border: 1px solid #292929;
+	background: #1f1f1f;
+}	
+#sidebar ol.forms input, #sidebar ol.forms textarea, #sidebar #comments #respond p.comment-form-email input, #sidebar #comments #respond p.comment-form-author input, #sidebar #comments #respond p.comment-form-url input, #sidebar #comments #respond p.comment-form-comment textarea {
+	border: 1px solid #292929;
+	background: #1f1f1f;
+	color: #888;
+}
+	
+	
+/* Contents' Table */
+	.meta-left-sidebar table,.meta-right-sidebar table,.meta-left-full table, .meta-left-full-content table{
+		width: 100%;
+		padding: 5px;
+		border-collapse:collapse;
+		border: 0px; 
+		}
+		.meta-left-sidebar th,.meta-right-sidebar th,.meta-left-full th, .meta-left-full-content th{
+			text-align: left;
+			color: #eee;
+			font-weight: bold;
+			padding: 11px 20px;
+			border-bottom: 0px;
+			background: #292929 ;
+		}
+		.meta-left-sidebar td,.meta-right-sidebar td,.meta-left-full td, .meta-left-full-content td{
+			color: #bbb;
+			padding: 9px 20px;
+			border-left: 0px;
+			background: #1d1d1d ;
+		}
+/* Add border to the lines */
+		.syntaxhighlighter .line .content
+		{
+			border-left: 3px solid #eee !important;
+			color: #000 !important;
+		}
+		.syntaxhighlighter, .syntaxhighlighter .line.alt1, .syntaxhighlighter .line.alt2 {
+			background-color: #222 !important;
+		}
+		
+		.syntaxhighlighter .line.highlighted .number
+{
+	color: black !important;
+}
+
+.syntaxhighlighter{
+	border: 0px #444 solid !important;
+}
+/* Highlighed line */
+.syntaxhighlighter .line.highlighted.alt1,
+.syntaxhighlighter .line.highlighted.alt2
+{
+	background-color: #e0e0e0 !important;
+}
+
+/* Gutter line numbers */
+.syntaxhighlighter .line .number
+{
+	color: #afafaf !important;
+}
+
+/* Add border to the lines */
+.syntaxhighlighter .line .content
+{
+	border-left: 2px solid #444 !important;
+	color: #000 !important;
+}
+
+.syntaxhighlighter.printing .line .content 
+{
+	border: 0 !important;
+}
+
+/* First line */
+/*
+.syntaxhighlighter .line.alt1
+{
+	background-color: #222 !important;
+}
+*/
+/* Second line */
+/*
+.syntaxhighlighter .line.alt2
+{
+	background-color: #222 !important;
+}
+*/
+
+.syntaxhighlighter .toolbar
+{
+	background-color: #F8F8F8 !important;
+	border: #E7E5DC solid 1px !important;
+}
+
+.syntaxhighlighter .toolbar a
+{
+	color: #a0a0a0 !important;
+}
+
+.syntaxhighlighter .toolbar a:hover
+{
+	color: red !important;
+}
+
+/************************************
+ * Actual syntax highlighter colors.
+ ************************************/
+.syntaxhighlighter .plain,
+.syntaxhighlighter .plain a
+{ 
+	color: #bbb !important;
+}
+
+.syntaxhighlighter .comments,
+.syntaxhighlighter .comments a
+{ 
+	color: #fff !important;
+}
+
+.syntaxhighlighter .string,
+.syntaxhighlighter .string a
+{
+	color: #fff !important; 
+}
+
+.syntaxhighlighter .keyword
+{ 
+	color: #069 !important; 
+	font-weight: bold !important; 
+}
+
+.syntaxhighlighter .preprocessor 
+{ 
+	color: gray !important; 
+}
+
+.syntaxhighlighter .variable 
+{ 
+	color: #a70 !important; 
+}
+
+.syntaxhighlighter .value
+{ 
+	color: #090 !important; 
+}
+
+.syntaxhighlighter .functions
+{ 
+	color: #ff1493 !important; 
+}
+
+.syntaxhighlighter .constants
+{ 
+	color: #0066CC !important; 
+}
+
+.syntaxhighlighter .script
+{ 
+	background-color: yellow !important;
+}
+
+.syntaxhighlighter .color1,
+.syntaxhighlighter .color1 a
+{ 
+	color: #808080 !important; 
+}
+
+.syntaxhighlighter .color2,
+.syntaxhighlighter .color2 a
+{ 
+	color: #ff1493 !important; 
+}
+
+.syntaxhighlighter .color3,
+.syntaxhighlighter .color3 a
+{ 
+	color: red !important; 
+}
+
+
+
+	/*Widget style*/
+	#sidebar li{	
+		padding: 6px 0px 6px 25px;	
+		border-bottom: 1px #262626 solid;
+	}
+	#sidebar .sidebar-inner{
+		color: #aaa;
+	}	
+		#sidebar li {			
+			background: url('../img/arrow-sidebar2.png') no-repeat 0px 9px;
+		}		
+		#sidebar li:hover {			
+			background: url('../img/arrow-sidebar2.png') no-repeat 4px 9px;
+		}
+		
+	.meta-right-widget{
+		color: #aaa;
+	}
+	.flickr-widget .flickr_badge_image{
+		border: 1px #333 solid;
+	}	
+	.last-post-wrapper-widget{
+		border-bottom: 1px #292929 solid;
+	}
+	
+	/*Twitter widget*/
+	ul#twitter_update_list li{
+		list-style: none;
+		border-bottom: 0;
+		background: #202020 url('../img/twitter_icon_s.png') no-repeat 11px 15px;
+		display: inline-block;
+		padding-left: 37px;
+		padding-top: 13px;
+		padding-bottom: 13px;
+		padding-right: 15px;
+		margin-top: 10px;
+		margin-bottom: 0px;
+		font-family: Georgia, Helvetica, Verdana, sans-serif;
+		font-size: 12px;
+		width: 140px;
+	}
+	ul#twitter_update_list li:hover{
+		background: #202020 url('../img/twitter_icon_s.png') no-repeat 11px 15px;	
+	}
+	ul#twitter_update_list li span{
+		list-style: none;
+		background: none;
+		margin-left: 0px;
+		margin-right: 5px;
+		display: inline;
+		color: #eee !important;
+	}
+	ul#twitter_update_list li a{
+		color: #aaa !important;
+		display:table;
+		margin-top: 10px;
+		float: none;
+		clear: both;
+	}
+	ul#twitter_update_list li span a{
+		color: #aaa !important;
+		margin-top: 0px;
+		float: left;
+		margin-right: 3px;
+	}
+	ul#twitter_update_list li a:hover{
+		color: #ddd !important;
+	}	
+
+	/* Tag Cloud*/
+	.tagcloud a{
+		font-size: 12px !important;
+		display: block;
+		float: left;
+		padding: 3px 10px 3px 10px;
+		margin-right: 10px;
+		margin-top: 10px;
+		background: #242424;
+	}
+
+	/*Calendar Table*/
+	#wp-calendar{	
+		border-collapse: collapse;
+		text-align: center;
+		font-size: 11px;
+		line-height: 150%;
+		width: 100%;
+	}	
+	table#wp-calendar{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	#wp-calendar td{
+		padding: 6.5px;
+		color: #aaa;
+		background: #1f1f1f;
+	}
+	
+	#wp-calendar th, #wp-calendar tfoot tr td{	
+		border-collapse: collapse;
+		border: 0px;
+		padding: 8px;
+		font-weight: 900;
+		color: #aaa;
+	}
+	#wp-calendar tfoot tr td{
+		background: #252525;
+	}
+	
+	#wp-calendar caption{
+		margin-right: 0px;
+		font-family : Helvetica, Verdana, sans-serif;
+		font-size: 14px; 
+		padding: 10px;	
+		color: #eee;
+		border-bottom: 0px;
+		background: #252525;
+	}
+	
+		
+		

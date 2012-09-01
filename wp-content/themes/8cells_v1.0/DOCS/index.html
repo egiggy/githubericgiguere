@@ -1,0 +1,527 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>8Cells Wordpress Version Documentation Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+
+		<h3 class="center alt">&ldquo;8Cells Wordpress Version&rdquo; Documentation by &ldquo;Peerapong Pulpipatnan&rdquo;</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;8Cells Wordpress Version&rdquo;<br>--wplocker.com--</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 25/05/2011<br>
+					By: Peerapong Pulpipatnan
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/peerapong">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#gettingStarted">Getting Started</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="gettingStarted"><strong>A) Getting Started</strong> - <a href="#toc">top</a></h3>
+		<p>In order to begin installing 8Cells theme. You need the latest version of Wordpress. Here is <a href="http://wordpress.org/">the download URL</a>. Once you downloaded and set it up, You are ready to go.</p>
+		
+		<hr>
+		
+		<h4>Installation</h4>
+		
+		<p>
+			Upon downloading the package, you will have an "8Cells" folder inside the theme package. Upload this folder to your themes folder at: your WordPress installation root directory <strong>/wp-content/themes</strong>
+		</p>
+		
+		<p>
+			Log into WordPress administration and click on the <strong>Appearance >> Themes</strong> tab. After that is done, activate the theme as you would activate any other theme.
+		</p>
+		
+		<strong class="red">Note: You have to set /cache folder of 8Cells writable (chmod 777)</strong>
+		
+		<br/><br/><br/>
+		
+		<h4>Setup Main Menu</h4>
+		
+		<p>
+			8Cells has 2 menus locations, the menu align next to the logo and the one at the bottom left.
+		</p>
+		
+		<p>
+			Go to  <strong class="red">Appearance > Menus</strong> then click "Create Menu" name it <strong>"Main Menu"</strong>. Add items to your menu and select Theme location "Main Menu".	
+		</p>
+		
+		<p>
+			Go to  <strong class="red">Appearance > Menus</strong> then click "Create Menu" name it <strong>"Bottom Menu"</strong>. Add items to your menu and select Theme location "Bottom Menu".	
+		</p>
+		
+		<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/Idt7oyCD1qY?fs=1&amp;hl=en_US&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/Idt7oyCD1qY?fs=1&amp;hl=en_US&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
+		<br/><br/>
+		
+		<p>
+			For those who are not familiar with Wordpress 3.0 menu below are some tutorials. 
+		</p>
+		
+		<ol>
+			<li><a href="http://templatic.com/news/wordpress-3-0-menu-management">http://templatic.com/news/wordpress-3-0-menu-management</a></li>
+			<li><a href="http://www.wonderhowto.com/how-to-use-new-menu-system-wordpress-3-0-thelonious-376792/">http://www.wonderhowto.com/how-to-use-new-menu-system-wordpress-3-0-thelonious-376792/</a></li>
+		</ol>
+		
+		<br/>
+		
+		<h4>How to remove copyright at footer?</h4>
+		
+		<p>Open 8Cells admin > Footer > Footer Content</p>
+		
+		<br/>
+		
+		<h4>How to add line break after using columns shortcode</h4>
+		
+		<p>Insert below code when you want to add a new line after columns shortcodes</p>
+		
+<pre>
+&lt;br style=&quot;clear:both&quot;/&gt;
+</pre>
+		
+		<br/>
+		
+		<h4>I want to customize many theme's elements, is there any tools?</h4>
+		
+		<p>Yes, I would recommend "<a href="https://addons.mozilla.org/en-US/firefox/addon/1843/">Firebug a Firefox plugin</a>". It will help you inspect all CSS and HTML elements, really help if you do a lot customization.</p>
+		
+		<p><strong>The main CSS file is /css/screen.css</strong></p>
+		
+		<br/>
+		
+		<h4>Theme Admin Panel</h4>
+		
+		<p>
+			Upon activating the theme, from your WordPress admin panel, you will notice the "8Cells" options tab at the bottom of your WordPress admin panel menu options. Click on it. You will open the admin panel of 8Cells.
+		</p>
+		
+		<br/>
+		
+		<br/>
+		
+		<h4>Theme Style</h4>
+		
+		<p>
+			You can choose theme style between fixed width and full width, change your logo, favicon and other settings via 8Cells admin > General.
+		</p>
+		
+		<br/>
+		
+		<h4>How to change homepage contents?</h4>
+		
+		<p><img src="assets/images/1.png"/></p>
+		
+		<p>
+			<ol>
+				<li>Go to 8Cells Admin Panel > Homepage.</li>
+				<li>Select pages you want to display as homepage</li>
+				<li>Use Homepage Content Manager to reorder pages</li>
+			</ol>
+		</p>
+		
+		<br/>
+		
+		<h4>How to make your homepage look like the live demo site?</h4>
+		
+		<p>
+			<ol>
+				<li>
+					Create a page using code below
+<pre>
+[home_portfolios title=&quot;Recent Works&quot;]Nam a elit sapien, at ultricies tellus. Donec neque erat,ullamcorper vitae consequat et, commodo at ligula. In consequat nibh at nisi placerat.[/home_portfolios] 
+</pre>
+					and name it "Home Portfolio"<br/><br/>
+				</li>
+				<li>
+					Create a page using code below
+<pre>
+[home_posts]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget quam orci.[/home_posts] 
+</pre>
+					and name it "Home Blog"<br/><br/>
+				</li>
+				<li>Open 8Cells admin > Homepage and select "Home Portfolio" and Home Blog" as homepage content</li>
+			</ol>
+		</p>
+		
+		<br/>
+		
+		<h4>How to add a homepage slide?</h4>
+		
+		<p><strong>*Note: Homepage slider width 960 pixels and height 340 pixels</strong></p>
+		
+		<p><img src="assets/images/36.png"/></p>
+		
+		<p>
+			<ol>
+				<li>Click on "Add New Slide"</li>
+				<li>Enter title, its content</li>
+				<li>Click on "Set featured image" to upload preview image for this slide</li>
+				<li>Once uploaded click "Use as featured image"</li>
+				<li>Click on "Publish" to make this slide viewable.</li>
+			</ol>
+		</p>
+		
+		<br/>
+		
+		<h4>How to add a lightbox on homepage slider?</h4>
+		
+		<ol>
+			<li>Open 8Cells admin > Slider and select "Slider style" to flow</li>
+			<li><img src="assets/images/2.png"/><br/><br/>
+				When you create a slide. Enter slide content. <strong>* Important - leave Slider style empty</strong><br/><br/></li>
+			<li>Here is the example code used in live demo site.
+<pre>
+[one_third]
+&lt;strong&gt;Core Minimalist Photography Template&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;
+Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula. laoreet viverra, tortor libero sodales.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;a class=&quot;button&quot; href=&quot;javascript:;&quot;&gt;Buy Now&lt;/a&gt;
+[/one_third]
+[two_third_last]
+&lt;img src=&quot;wp-content/themes/8Cells/example/popup_core.jpg&quot; class=&quot;frame&quot;/&gt;
+[/two_third_last] 
+</pre>
+			</li>
+		</ol>
+		
+		<br/>
+		
+		<strong>You can change its sorting and other options via 8Cells admin > Slider</strong>
+		
+		<br/><br/><br/>
+		
+		<h4>How to add a portfolio page?</h4>
+		
+		<p><img src="assets/images/39.png"/></p>
+		
+		<p>
+			<ol>
+				<li>Click on "Pages > Add New"</li>
+				<li>Enter page title</li>
+				<li>On Page Attributes box, select template as "Portfolio"</li>
+				<li>Click on "Publish" to make this page viewable.</li>
+			</ol>
+		</p>
+		
+		<br/>
+		
+		<h4>How to add a portfolio post?</h4>
+		
+		<p><img src="assets/images/26.png"/></p>
+		
+		<p>
+			<ol>
+				<li>Click on "Add New Portfolio"</li>
+				<li>Enter title, its content</li>
+				<li>(Optional) Select the portfolio set</li>
+				<li>Click on "Set featured image" to upload preview image for this portfolio</li>
+				<li>Once uploaded click "Use as featured image"</li>
+				<li>Click on "Publish" to make this post viewable.</li>
+			</ol>
+		</p>
+		
+		<br/>
+		
+		<strong>You can change portfolio styles, change its sorting and other options via 8Cells admin > Portfolio</strong>
+		
+		<br/><br/><br/>
+		
+		<h4>How to use portfolio set?</h4>
+		
+		<p>
+			You can use set to organize your portfolio items (similar to category for blog posts)
+		</p>
+		
+		<p>
+			Once you assign portfolio to set. Go to appearance >menus. Then select which set you want to add to your menu items. If you can see it, click on screen option (top right) and check on sets.
+		</p>
+		
+		<br/>
+		
+		<br/>
+		
+		<h4>How to add a photo gallery?</h4>
+		
+		<p><img src="assets/images/33-1.png"/></p>
+		
+		<p>
+			<ol>
+				<li>Open Galleries > Add New</li>
+				<li>Enter gallery's name and description</li>
+				<li>Publish it</li>
+			</ol>
+		</p>
+		
+		<br/>
+		
+		<h4>How to add a gallery's image?</h4>
+		
+		<p><img src="assets/images/26-1.png"/></p>
+		
+		<p>
+			<ol>
+				<li>Open gallery page</li>
+				<li>Click on Gallery Images > Add New button</li>
+				<li>Select files to upload (you can use SHIFT or CTRL for multiple images uploading)</li>
+				<li>Once the upload progress is completed. It will automatically add to gallery</li>
+			</ol>
+		</p>
+		
+		<br/>
+		
+		<h4>How to add a gallery to main menu?</h4>
+		
+		<p><img src="assets/images/34-1.png"/></p>
+		
+		<p>
+			<ol>
+				<li>Go to Appearance > menus</li>
+				<li>There is a "Galleries" box. Select which gallery you want to add.</li>
+				<li>Once finish organizing, click on "Save Menu"</li>
+			</ol>
+		</p>
+		
+		<br/>
+		
+		<strong>If you can't see it, click on screen option (top right) and check on galleries</strong>
+		
+		<br/><br/>
+		
+		<h4>How to add a blog page?</h4>
+		
+		<p><img src="assets/images/30.png"/></p>
+		
+		<p>
+			<ol>
+				<li>Click on "Pages > Add New"</li>
+				<li>Enter page title</li>
+				<li>On Page Attributes box, select template as "Blog"</li>
+				<li>Click on "Publish" to make this page viewable.</li>
+			</ol>
+		</p>
+		
+		<br/>
+		
+		<h4>How to add a blog post?</h4>
+		
+		<p><img src="assets/images/28.png"/></p>
+		
+		<p>
+			<ol>
+				<li>Click on "Posts > Add New"</li>
+				<li>Enter title, its content</li>
+				<li>(Optional) Select the post category</li>
+				<li>Click on "Set featured image" to upload preview image for this post</li>
+				<li>Once uploaded click "Use as featured image"</li>
+				<li>Click on "Publish" to make this post viewable.</li>
+			</ol>
+		</p>
+		
+		<strong>You can choose post's featured content from video, images or gallery via "Post Options" on the left side of edit post page.</strong>
+		
+		<br/><br/>
+		
+		<h4>How to add a contact page?</h4>
+		
+		<p><img src="assets/images/32.png"/></p>
+		
+		<p>
+			<ol>
+				<li>Click on "Pages > Add New"</li>
+				<li>Enter page title</li>
+				<li>On Page Attributes box, select template as "Contact"</li>
+				<li>Click on "Publish" to make this page viewable.</li>
+			</ol>
+		</p>
+		
+		<p>
+			Then go to 8Cells Admin Panel > General and setup your email address.
+		</p>
+		
+		<br/>
+		
+		<h4>How to change site's elements colors?</h4>
+		
+		<p>
+			<ol>
+				<li>Go to 8Cells Admin Panel > Colors.</li>
+				<li>Choose the color from color picker for each element</li>
+			</ol>
+		</p>
+		
+		<br/>
+		
+		<h4>8Cells custom widgets</h4>
+		
+		<p>
+			However the homepage sidebar is support all Wordpress 3.0 widgets. I created 7 custom widgets to make your website more interesting.
+		</p>
+		
+		<p>
+			You can also add your sidebar via Admin panel.
+		</p>
+		
+		<p>
+			To add content to sidebar simple go to <strong>Appearance > Widgets</strong> and drag item into certain sidebar.
+		</p>
+		
+		<br/>
+		
+		<h5>Sidebar widget with shortcode support</h5>
+		
+		<p>
+			You can also add shortcode to sidebar widget, simply select "Text" type for your widget and enter shortcode to it.
+		</p>
+		
+		<br/>
+		
+		<h4>Page styles "Full width", "Left Sidebar" or "Right Sidebar"</h4>
+		
+		<p>
+			8Cells has 3 page styles, "Full width", "Left Sidebar" or "Right Sidebar". To select page style. Go to add new page.  Fill enter the title field and description. Go to Page Options then select page style box.
+		</p>
+		
+		<br/>
+		
+		
+		<h4>Shortcode Generator</h4>
+		
+		<p>
+			8Cells also come with built-in plugin called "Shortcode Generator" which will help you create theme's shortcode from GUI. It will automatically shows in your edit page, post.
+		</p>
+		
+		<p>
+			Select shortcode type you want to add then enter its contents. Click on "Generate Shortcode" and copy all code inside Shortcode box. Go to your post or page paste the code to its content.
+		</p>
+		
+		<br/>
+		
+		<h4>Troubleshooting</h4>
+		
+		<p>
+			8Cells also come with built-in plugin called "Troubleshooting" which will help you solve common issues that might arise from different server settings.
+		</p>
+		
+		<p><img src="assets/images/23.png"/></p>
+		
+		<hr>
+
+		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>I'm using five CSS files in this theme. The first file contains all of the specific stylings for the page. The file is separated into sections using:</p>  
+
+<pre>	
+	/* CSS Reset */
+
+	some code
+
+	/* Global layout */
+	
+	some code
+	
+	/* Input layout */
+	
+	some code
+</pre>
+	<br/><br/>
+
+		<p>The second file is a styling for jQuery UI element.</p>
+		<p>The third file is a styling for modal window.</p>
+		<p>The fourth and fifth file is a styling for HTML5 video.</p>
+		
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+		
+		<hr>
+		
+		<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This theme imports ten Javascript files.</p>
+		
+		<ol>
+			<li>jQuery</li>
+			<li>jQuery UI</li>
+			<li>jQuery Validate</li>
+			<li>jQuery fancybox</li>
+			<li>jQuery anythingSlider</li>
+			<li>jQuery nivoslider</li>
+			<li>jQuery coinslider</li>
+			<li>jQuery easing</li>
+			<li>Browser check</li>
+			<li>Custom script</li>
+		</ol>
+		  
+		<ol>
+			<li>jQuery and jQuery UI are a Javascript library that greatly reduces the amount of code that you must write.</li>
+			<li>jQuery validate contact form</li>
+			<li>jQuery Fancybox create a nice popup window using in gallery</li>
+			<li>jQuery anythingSlider for homepage and portfolio slider</li>
+			<li>jQuery nivoslider for homepage slider</li>
+			<li>jQuery coinslider for homepage slider</li>
+			<li>jQuery easing for slider transition effect</li>
+			<li>Browser check check browser name and version</li>
+			<li>Most of the animation in this theme is carried out from the customs scripts.</li>
+		</ol>
+		
+		
+		<hr>
+		
+		<h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the following script, images, icons or other files as listed.
+		
+		<ul>
+			<li>jQuery UI <a href="http://jqueryui.com/">http://jqueryui.com/</a></li>
+			<li>jQuery validate <a href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/">http://bassistance.de/jquery-plugins/jquery-plugin-validation/</a></li>
+			<li>jQuery Fancybox <a href="http://fancybox.net/">http://fancybox.net/</a></li>
+			<li>jQuery anythingSlider <a href="http://css-tricks.com/anythingslider-jquery-plugin/">http://css-tricks.com/anythingslider-jquery-plugin/</a></li>
+			<li>jQuery nivoslider <a href="http://nivo.dev7studios.com/">http://nivo.dev7studios.com/</a></li>
+			<li>jQuery coinslider <a href="http://workshop.rs/projects/coin-slider/">http://workshop.rs/projects/coin-slider/</a></li>
+			<li>jQuery validate <a href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/">http://bassistance.de/jquery-plugins/jquery-plugin-validation/</a></li>
+			<li>Fonts for commercial use <a href="http://www.fontsquirrel.com/">http://www.fontsquirrel.com/</a></li>
+		</ul>
+		
+
+		<hr>
+
+		
+		
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>Peerapong Pulpipatnan</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

@@ -1,0 +1,82 @@
+body{
+padding: 0px;
+margin: 0px;
+font-size: 80%;
+font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+text-align: center;
+color: #444;
+}
+p{
+padding: 0px 0px 0px 20px;
+font-size: 12px;
+font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+color: #444;
+}
+a{
+color: #007F9F;
+text-decoration: none;
+}
+a:hover{
+color: #009FD8;
+text-decoration: none;
+}
+#topic{
+color: #444;
+}
+#header{
+	width: 700px;
+	margin: 0px auto;
+	clear: both;
+}
+#header .theme-header{
+	color: #888;
+	text-align:center;
+	padding:10px;
+	margin: 20px auto 10px;
+	border: 1px solid #DFCE5B;
+	background-color: #FFFDEB;
+}
+#header .theme-title{
+	width:100%;
+	font-size: 24px;
+	text-align:center;
+	padding:20px;
+}
+#header .template-detail{
+	color: #888;
+    width: 240px;
+	padding: 20px;
+	float: left;
+	border: 1px solid #EEE;
+	text-align: left;
+	background: #F9F9F9;
+}
+#header .thanks{
+	text-align: left;
+	padding: 15px 20px ;
+    width: 370px;
+	float: right;
+	border-right: 1px solid #DDD;
+}
+#container{
+	width:700px;
+	margin: 0px auto;
+	clear: both;
+}
+#container .nevigator ul{
+	list-style: none;
+}
+#container .nevigator{
+	padding: 30px;
+	clear: both;
+	text-align: left;
+	border-bottom: 1px solid #DDD;
+}
+#container .lesson{
+	text-align: left;
+	padding: 20px 10px 10px;
+	border-bottom: 1px solid #DDD;
+}
+
+
+

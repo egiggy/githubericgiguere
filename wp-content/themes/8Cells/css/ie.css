@@ -1,0 +1,29 @@
+.tagline
+{
+	margin-top: 0px;
+}
+
+.overlay_detail *
+{
+	visibility: hidden;
+}
+
+.post_header h3 a
+{
+	padding-bottom: 13px;
+}
+
+#content_wrapper .sidebar .content .sidebar_widget li .widgettitle span
+{
+	padding-bottom: 7px;
+}
+
+.cufon span
+{
+	padding-bottom: 8px;
+}
+
+.middle
+{
+	vertical-align: -10%;
+}
